@@ -1,12 +1,9 @@
-package projects;
-
 import java.util.Scanner;
 
 public class calculater {
     public static void main(String[] args) {
-        @SuppressWarnings("resource")
         Scanner in = new Scanner(System.in);
-        {   int ans=0;
+           int ans=0;
             while (true) {
                 System.out.println("enter the operator");
                 char op = in.next().trim().charAt(0); 
@@ -39,7 +36,7 @@ public class calculater {
                 System.out.println(ans);
                 
             }
-        }
+        
     }
     
 }
